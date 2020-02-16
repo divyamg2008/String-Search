@@ -1,0 +1,46 @@
+File Name,Word Searched,Matches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+log1.txt,line no3,1
+log1.txt,line no4,1
+log1.txt,line no9,1
+log2.txt,line no3,1
+log2.txt,line no4,1
+log2.txt,line no9,1
+log3.txt,line no3,1
+log3.txt,line no4,2
+log3.txt,abc,1
+log3.txt,line no9,8
+log4.txt,line no3,1
+log4.txt,line no4,1
+log4.txt,line no9,1
+log5.txt,line no3,1
+log5.txt,line no4,1
+log5.txt,line no9,1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Matches,,24
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Matched Lines
+log1.txt:lno.:3,,This is line no3
+log1.txt:lno.:4,,This is line no4
+log1.txt:lno.:9,,This is line no9
+log2.txt:lno.:3,,This is line no3
+log2.txt:lno.:4,,This is line no4
+log2.txt:lno.:9,,This is line no9
+log3.txt:lno.:5,,This is line no3 or This is line no9
+log3.txt:lno.:7,,This is line no4
+log3.txt:lno.:16,,This is line no4
+log3.txt:lno.:3,,abc
+log3.txt:lno.:6,,This is line no9
+log3.txt:lno.:9,,This is line no9
+log3.txt:lno.:12,,This is line no9
+log3.txt:lno.:13,,This is line no9
+log3.txt:lno.:15,,This is line no9This is line no9
+log3.txt:lno.:18,,This is line no9
+log3.txt:lno.:21,,This is line no9
+log4.txt:lno.:3,,This is line no3
+log4.txt:lno.:4,,This is line no4
+log4.txt:lno.:9,,This is line no9
+log5.txt:lno.:3,,This is line no3
+log5.txt:lno.:4,,This is line no4
+log5.txt:lno.:9,,This is line no9
+~~~~~~~~~~~~~~~EOF~~~~~~~~~~~~~~~
